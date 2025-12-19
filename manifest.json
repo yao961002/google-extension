@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Job Tracker",
+  "version": "0.1",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/jobs/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
