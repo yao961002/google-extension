@@ -1,0 +1,44 @@
+.sidebar {
+  padding: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+.job-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 14px;
+  background: #fff;
+}
+
+.company {
+  font-weight: 600;
+}
+
+.meta {
+  color: #666;
+  font-size: 13px;
+}
+
+.status {
+  margin-top: 12px;
+}
+
+select {
+  margin-left: 8px;
+  padding: 4px;
+}
+
+.primary {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  background: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
