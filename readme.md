@@ -39,3 +39,49 @@ Content Script (DOM extraction)
 Injected React UI
 
 Background logic
+
+
+
+🛠 Tech Stack
+
+JavaScript (ES6+)
+
+React
+
+Vite
+
+Chrome Extension Manifest V3
+
+Chrome Storage API
+
+DOM Parsing & Mutation Handling
+
+📦 Installation (Local Development)
+
+1️⃣ Clone the repository
+
+git clone https://github.com/yao961002/google-extension.git
+cd google-extension
+
+
+2️⃣ Build the injected React UI
+
+cd injected-ui
+npm install
+npm run build
+
+
+This will generate dist-ui/sidebar.js
+
+3️⃣ Load extension into Chrome
+
+Open chrome://extensions
+
+Enable Developer mode
+
+Click Load unpacked
+
+Select the project root folder
+
+4️⃣ Open LinkedIn job pages 🎯
+The sidebar will appear automatically.
